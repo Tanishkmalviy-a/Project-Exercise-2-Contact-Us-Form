@@ -18,7 +18,7 @@ h1 {
   font-family: "IBM Plex Mono", monospace;
 }
 .xyz {
-  padding: 20px;
+  padding: 30px;
   border: 1.5px solid black;
   border-radius: 10px;
   box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3);
@@ -43,7 +43,7 @@ textarea {
   padding: 8px;
   margin: 5px 0px;
   font-family: "IBM Plex Mono" ;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
 .btn {
@@ -52,7 +52,7 @@ textarea {
  button {
     background-color: #333333;  /* #333333 */
     color: white; 
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -62,6 +62,11 @@ textarea {
 
 button:hover {
     background-color: #fccf3d;  /* done */
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 10px 40px;
+  color: #333333;
+  font-weight: 600;
+
 }
 
 input:hover, textarea:hover {
@@ -70,4 +75,7 @@ input:hover, textarea:hover {
 
 textarea:focus, input:focus {
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border: 2px solid black;
 }
+
